@@ -1,0 +1,4 @@
+Bundle-Name: PortletTest
+Bundle-SymbolicName: com.poc.portlet
+Bundle-Version: 1.0.0
+Export-Package: com.poc.portlet.constants
