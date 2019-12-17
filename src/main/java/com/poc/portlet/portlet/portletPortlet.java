@@ -20,7 +20,7 @@ import org.osgi.service.component.annotations.Component;
 		"javax.portlet.display-name=portlet",
 		"javax.portlet.init-param.template-path=/",
 		"javax.portlet.init-param.view-template=/view.jsp",
-		"javax.portlet.name="+ portletPortletKeys.PORTLET,
+		"javax.portlet.name=Portlet Test", //+ portletPortletKeys.PORTLET,
 		"javax.portlet.resource-bundle=content.Language",
 		"javax.portlet.security-role-ref=power-user,user"
 	},
