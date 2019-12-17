@@ -1,10 +1,12 @@
 package com.poc.portlet.portlet;
 
+import com.poc.portlet.constants.portletPortletKeys;
+
+import com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet;
+
 import javax.portlet.Portlet;
 
 import org.osgi.service.component.annotations.Component;
-
-import com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet;
 
 /**
  * @author Gaalator
@@ -18,7 +20,7 @@ import com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet;
 		"javax.portlet.display-name=portlet",
 		"javax.portlet.init-param.template-path=/",
 		"javax.portlet.init-param.view-template=/view.jsp",
-		"javax.portlet.name=Test",// + portletPortletKeys.PORTLET,
+		"javax.portlet.name=" + portletPortletKeys.PORTLET,
 		"javax.portlet.resource-bundle=content.Language",
 		"javax.portlet.security-role-ref=power-user,user"
 	},
