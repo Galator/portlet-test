@@ -1,5 +1,5 @@
 <%@ include file="/init.jsp" %>
 
 <p>
-	<b><liferay-ui:message key="portlet.caption"/></b>
+	<b>test</b>
 </p>
