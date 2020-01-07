@@ -26,5 +26,19 @@ import org.osgi.service.component.annotations.Component;
 	},
 	service = Portlet.class
 )
+
+
 public class portletPortlet extends MVCPortlet {
+	
+	void test () {}
+	
+	void test2 () {}
+	
+	void test3 () {}
+	
+	void test4 () {}
+	
+	void test5 () {}
+	
+	void test6 () {}
 }
